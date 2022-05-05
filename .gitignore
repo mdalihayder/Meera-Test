@@ -29,8 +29,8 @@ hs_err_pid*
 .classpath
 .project
 .settings/
-target/
-test-output/
+#target/
+#test-output/
 
 # HTML files
 *.html
