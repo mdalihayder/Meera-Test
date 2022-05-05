@@ -20,6 +20,13 @@ public class Ebay_Registration extends ElementOperations {
 	}
 		
 	
+	@FindBy(xpath = "(//*[contains(text(),'Sign in')])[1]")
+	private WebElement SignIn1;
+	
+	public void ClickSignIn1() {
+		SignIn1.click();
+	}
+	
 	
 	@FindBy(xpath = "(//*[contains(text(),'Sign in')])[1]")
 	private WebElement SignIn;
