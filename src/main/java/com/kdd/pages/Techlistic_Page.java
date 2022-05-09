@@ -82,8 +82,17 @@ public class Techlistic_Page extends ElementOperations {
 			selectByVisibleText(SelectContinents, data);
 		} catch (InvalidLocatorException e) {
 			e.printStackTrace();
+			}
 		}
-	}
+		
+		@FindBy(xpath ="//*[@id='selenium_commands']")
+		private WebElement SeleniumCommands;
+		
+		public void SelectSeleniumCommands() {
+			SeleniumCommands.click();
+		}
+			
+	
 	@FindBy(xpath = "//*[@id='submit']")
 	private WebElement Button;
 	

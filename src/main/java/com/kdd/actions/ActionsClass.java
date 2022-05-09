@@ -132,6 +132,10 @@ public class ActionsClass implements GlobalVariables {
 		ObjTechlistic.SelectContinents(data);
 	}
 
+	public void SelectSeleniumCommands(String data) {
+		ObjTechlistic.SelectSeleniumCommands();
+
+	}
 	public void ScrollForButton(String data) {
 		ObjTechlistic.ScrollToButton();
 
